@@ -24,6 +24,8 @@ $turquoise:    hsl(171, 100%, 41%) !default
 $blue:         hsl(217, 71%,  53%) !default
 $purple:       hsl(271, 100%, 71%) !default
 $red:          hsl(348, 100%, 61%) !default
+$qb-blue:      hsl(211, 83%,  64%) !default
+$qb-light-blue:hsl(211, 82%,  89%) !default
 
 // Typography
 $family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default
@@ -68,9 +70,9 @@ $speed: 86ms !default
 ////////////////////////////////////////////////
 // 2. Primary colors
 
-$primary: $turquoise !default
+$primary: $qb-blue !default //$turquoise !default
 
-$info: $blue !default
+$info: $qb-light-blue !default //$blue !default
 $success: $green !default
 $warning: $yellow !default
 $danger: $red !default
@@ -90,9 +92,11 @@ $turquoise-invert: findColorInvert($turquoise) !default
 $blue-invert: findColorInvert($blue) !default
 $purple-invert: findColorInvert($purple) !default
 $red-invert: findColorInvert($red) !default
+$qb-blue-invert: findColorInvert($qb-blue) !default
+$qb-light-blue-invert: findColorInvert($qb-light-blue) !default
 
-$primary-invert: $turquoise-invert !default
-$info-invert: $blue-invert !default
+$primary-invert: $qb-blue-invert !default //$turquoise-invert !default
+$info-invert: $qb-light-blue-invert !default //$blue-invert !default
 $success-invert: $green-invert !default
 $warning-invert: $yellow-invert !default
 $danger-invert: $red-invert !default
